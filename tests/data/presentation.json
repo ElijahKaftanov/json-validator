@@ -1,0 +1,12 @@
+{
+  "data": {
+    "array": [
+      "elijah4freelance@gmail.com",
+      "support"
+    ],
+    "city": "Paris",
+    "moneyStringRepresentation": "6000.00",
+    "nullableValue": null,
+    "integer": 400
+  }
+}

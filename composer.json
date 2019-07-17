@@ -1,0 +1,32 @@
+{
+  "name": "classic/json-validator",
+  "description": "Fast and intuitive json validator",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ilya.kaftanov",
+      "email": "elijahkaftanov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Classic\\JsonValidator\\": "src/",
+      "Classic\\Package\\": "package/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Classic\\JsonValidator\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-bcmath": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2",
+    "ext-json": "*"
+  }
+}
