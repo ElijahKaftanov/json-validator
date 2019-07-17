@@ -1,5 +1,9 @@
 # Fast, Memory Optimized, IDE-friendly JSON Validator
 
+```bash
+composer req classic/json-validator
+```
+
 ###Code
 ```php
 $validator = ValidationFactory::makeValidator([
