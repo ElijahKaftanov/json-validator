@@ -4,7 +4,7 @@
 composer req classic/json-validator
 ```
 
-###Code
+### Code
 ```php
 $validator = ValidationFactory::makeValidator([
     'shemaMap' => [
@@ -33,19 +33,23 @@ try {
 }
 ```
 
-###Data
+### Data
 ```json
 {
   "data": {
     "array": [
       "elijah4freelance@gmail.com",
-      "support@gmail.com"
-    ]
+      "support"
+    ],
+    "city": "Paris",
+    "moneyStringRepresentation": "6000.00",
+    "nullableValue": null,
+    "integer": 400
   }
 }
 ```
 
-###Errors
+### Errors
 ```php
 [
     [
